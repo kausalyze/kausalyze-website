@@ -1,0 +1,61 @@
+FORMSUBMIT INTEGRATION GUIDE
+
+Your contact form is now connected to FormSubmit (https://formsubmit.co/), a free email form submission service that doesn't require registration, API keys, or backend code.
+
+HOW IT WORKS:
+------------
+1. When a user submits the form, it sends the data directly to FormSubmit's servers
+2. FormSubmit forwards the submission to your email address (lallen6@sheffield.ac.uk)
+3. The user sees a success message on your website
+
+CURRENT CONFIGURATION:
+--------------------
+- Recipient Email: lallen6@sheffield.ac.uk
+- Subject Line: "New submission from Kausalyze website!"
+- Form Format: Table layout
+- CAPTCHA: Disabled
+- Success Redirect: Back to your contact page with a success parameter
+- Honeypot Protection: Enabled (anti-spam measure)
+
+CUSTOMIZATION OPTIONS:
+--------------------
+You can modify these settings by changing the hidden input fields in Contact.jsx:
+
+1. Change recipient email:
+   - Update the action attribute in the form tag:
+   - action="https://formsubmit.co/your-new-email@example.com"
+
+2. Change subject line:
+   - <input type="hidden" name="_subject" value="Your custom subject line" />
+
+3. Enable CAPTCHA:
+   - <input type="hidden" name="_captcha" value="true" />
+
+4. Change success redirect:
+   - <input type="hidden" name="_next" value="https://your-website.com/thanks" />
+
+5. Change email template:
+   - <input type="hidden" name="_template" value="box" /> (options: table, box, plain)
+
+ADDITIONAL FEATURES:
+------------------
+FormSubmit offers other features you can add:
+
+1. File attachments:
+   - Add enctype="multipart/form-data" to your form tag
+   - Add <input type="file" name="attachment" /> to your form
+
+2. CC/BCC recipients:
+   - <input type="hidden" name="_cc" value="cc-email@example.com" />
+   - <input type="hidden" name="_bcc" value="bcc-email@example.com" />
+
+3. Auto-response:
+   - <input type="hidden" name="_autoresponse" value="Thank you for your submission!" />
+
+TROUBLESHOOTING:
+--------------
+- First-time use: You may receive a confirmation email from FormSubmit to verify your email address
+- Spam filters: Check your spam folder if you don't receive submissions
+- Rate limits: FormSubmit has usage limits (50 submissions per day on the free plan)
+
+For more information, visit: https://formsubmit.co/

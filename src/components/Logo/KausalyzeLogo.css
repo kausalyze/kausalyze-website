@@ -1,0 +1,50 @@
+.kausalyze-logo {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.logo-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo-text {
+  font-family: var(--font-primary);
+  font-weight: 700;
+  font-size: 1.8rem;
+  letter-spacing: 1px;
+  color: #1a5158;
+  text-transform: uppercase;
+}
+
+/* Logo sizes */
+.kausalyze-logo.small .logo-icon svg {
+  width: 30px;
+  height: 30px;
+}
+
+.kausalyze-logo.small .logo-text {
+  font-size: 1.2rem;
+}
+
+.kausalyze-logo.large .logo-icon svg {
+  width: 80px;
+  height: 80px;
+}
+
+.kausalyze-logo.large .logo-text {
+  font-size: 2.4rem;
+}
+
+@media (max-width: 768px) {
+  .kausalyze-logo .logo-text {
+    font-size: 1.4rem;
+  }
+
+  .kausalyze-logo .logo-icon svg {
+    width: 40px;
+    height: 40px;
+  }
+}
