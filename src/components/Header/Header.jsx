@@ -72,10 +72,11 @@ const Header = () => {
 
         <nav className={`main-nav ${isMobileMenuOpen ? 'mobile-open' : ''}`}>
           <ul className="nav-links">
-            {/* <li><NavLink to="/features" onClick={handleLinkClick}>Features</NavLink></li> */}
-            <li><NavLink to="/about" onClick={handleLinkClick}>About</NavLink></li>
+            <li><NavLink to="/" onClick={handleLinkClick}>Home</NavLink></li>
+            <li><NavLink to="/about#about" onClick={handleLinkClick}>About</NavLink></li>
             <li><NavLink to="/about#team" onClick={handleLinkClick}>Team</NavLink></li>
-            <li><NavLink to="/contact" onClick={handleLinkClick}>Contact</NavLink></li>
+            <li><NavLink to="/News" onClick={handleLinkClick}>News</NavLink></li>
+            <li><NavLink to="/contact#contact" onClick={handleLinkClick}>Contact</NavLink></li>
           </ul>
         </nav>
 

@@ -1,0 +1,21 @@
+CHECK FOR DOMAIN PARKING / COMING SOON SETTINGS:
+
+1. Log into your GoDaddy account
+2. Go to your Domain Manager or Domain Settings
+3. Find kausalyze.com in your list of domains
+4. Look for settings like:
+   - "Domain Parking"
+   - "Coming Soon Page"
+   - "For Sale Page"
+   - "Under Construction"
+
+5. IMPORTANT: These may be located in different places:
+   - Sometimes under "Additional Settings"
+   - Sometimes in their own tab within domain management
+   - Sometimes under "Websites" section
+
+6. Ensure all such features are DISABLED or turned OFF
+
+NOTE: GoDaddy regularly updates their interface, so the exact location
+may differ from what you see in online guides. Be thorough in checking
+all domain settings sections.

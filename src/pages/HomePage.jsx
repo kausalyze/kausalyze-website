@@ -2,7 +2,6 @@ import React from 'react';
 import HeroSection from '../components/HeroSection/HeroSection';
 import ValueProposition from '../components/ValueProposition/ValueProposition';
 import Features from '../components/Features/Features';
-import About from '../components/About/About';
 import Contact from '../components/Contact/Contact';
 
 const HomePage = () => {

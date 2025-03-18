@@ -1,0 +1,16 @@
+GITHUB REPOSITORY CUSTOM DOMAIN SETUP:
+
+1. Go to your GitHub repository (https://github.com/Kausal-sheffield/kausalyze-website)
+2. Click on "Settings" tab
+3. Scroll down to the "GitHub Pages" section
+4. Under "Custom domain", enter: kausalyze.com
+5. Click "Save"
+6. [IMPORTANT] Check the "Enforce HTTPS" checkbox to enable secure connections
+   (Note: It may take up to 24 hours for the SSL certificate to be provisioned)
+
+The GitHub Pages settings should show:
+- Source: gh-pages branch
+- Custom domain: kausalyze.com
+- Enforce HTTPS: ✓ (checked)
+
+Your site should be live at: https://kausalyze.com

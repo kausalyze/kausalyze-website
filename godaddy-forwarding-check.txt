@@ -1,0 +1,15 @@
+CHECK FOR DOMAIN FORWARDING:
+
+1. Log into your GoDaddy account
+2. Go to your domain's (kausalyze.com) management page
+3. Look for "Forwarding" or "Domain Forward" settings
+
+   Common locations:
+   - Under "Additional Settings"
+   - In "DNS Settings" page, sometimes at the top
+   - Under "Domain Settings" or "Domain Details"
+
+4. If any forwarding is enabled, disable it completely
+
+Note: Domain forwarding can override your DNS settings and cause your site
+to redirect to GoDaddy's servers instead of GitHub Pages, even with correct DNS records.

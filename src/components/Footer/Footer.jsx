@@ -47,10 +47,7 @@ const Footer = () => {
               <a href="https://linkedin.com/in/louis-allen-sheff" target="_blank" rel="noopener noreferrer">
                 <i className="fab fa-linkedin-in"></i>
               </a>
-              <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
-                <i className="fab fa-twitter"></i>
-              </a>
-              <a href="https://youtube.com" target="_blank" rel="noopener noreferrer">
+              <a href="https://youtu.be/E3uqV3WuI74" target="_blank" rel="noopener noreferrer">
                 <i className="fab fa-youtube"></i>
               </a>
             </div>
@@ -60,10 +57,10 @@ const Footer = () => {
             <div className="footer-links-column">
               <h4>Company</h4>
               <ul>
-                <li><Link to="/about" onClick={(e) => handleNavigation(e, '/about')}>About Us</Link></li>
-                <li><Link to="/contact" onClick={(e) => handleNavigation(e, '/contact')}>Contact</Link></li>
+                <li><Link to="/about#about" onClick={(e) => handleNavigation(e, '/about')}>About Us</Link></li>
+                <li><Link to="/contact#contact" onClick={(e) => handleNavigation(e, '/contact')}>Contact</Link></li>
                 <li><Link to="/careers" onClick={(e) => handleNavigation(e, '/careers')}>Careers</Link></li>
-                <li><Link to="/press" onClick={(e) => handleNavigation(e, '/press')}>Press</Link></li>
+                <li><Link to="/news" onClick={(e) => handleNavigation(e, '/news')}>News</Link></li>
               </ul>
             </div>
 
@@ -82,7 +79,7 @@ const Footer = () => {
               <ul>
                 {/* <li><Link to="/blog">Blog</Link></li>
                 <li><Link to="/documentation">Documentation</Link></li> */}
-                <li><Link to="/team">Our Team</Link></li>
+                <li><Link to="/about#team">Our Team</Link></li>
                 <li>
                   <Link
                     to="/about#supporters"
@@ -98,7 +95,7 @@ const Footer = () => {
               <h4>Legal</h4>
               <ul>
                 {/* <li><Link to="/terms" onClick={(e) => handleNavigation(e, '/terms')}>Terms of Service</Link></li> */}
-                <li><Link to="/privacy" onClick={(e) => handleNavigation(e, '/privacy')}>Privacy Policy</Link></li>
+                <li><Link to="/privacy#privacy-policy" onClick={(e) => handleNavigation(e, '/privacy')}>Privacy Policy</Link></li>
                 {/* <li><Link to="/cookies" onClick={(e) => handleNavigation(e, '/cookies')}>Cookie Policy</Link></li> */}
               </ul>
             </div>

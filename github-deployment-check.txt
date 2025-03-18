@@ -1,0 +1,26 @@
+VERIFY GITHUB PAGES DEPLOYMENT:
+
+1. Go to your GitHub repository (https://github.com/Kausal-sheffield/kausalyze-website)
+
+2. Check the deployment status:
+   - Go to the "Actions" tab
+   - Look for the most recent workflow run
+   - Ensure it completed successfully (green checkmark)
+
+3. Verify Pages settings:
+   - Go to "Settings" tab
+   - Scroll to "Pages" section
+   - Confirm these settings:
+     * Branch: gh-pages
+     * Custom domain: kausalyze.com
+     * "Enforce HTTPS" is checked
+     * Status should say "Your site is published at https://kausalyze.com"
+
+4. Test direct GitHub Pages URL:
+   - Try accessing: https://kausal-sheffield.github.io/kausalyze-website
+   - If this works but kausalyze.com doesn't, it's definitely a domain configuration issue
+
+5. Check your gh-pages branch:
+   - Ensure the branch exists
+   - Verify it contains your built website files
+   - Confirm there's a CNAME file containing only "kausalyze.com"

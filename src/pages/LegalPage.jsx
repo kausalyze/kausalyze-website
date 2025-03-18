@@ -30,7 +30,7 @@ const LegalPage = () => {
   const renderPrivacyPolicy = () => {
     return (
       <>
-        <h2>Privacy Policy</h2>
+        <h2 id='privacy-policy'>Privacy Policy</h2>
         <p>
           This privacy notice for Kausalyze ("Company," "we," "us," or "our"),
           describes how and why we might collect, store, use, and/or share

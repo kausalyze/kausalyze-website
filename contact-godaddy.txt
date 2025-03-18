@@ -1,0 +1,25 @@
+CONTACT GODADDY SUPPORT:
+
+If you've tried all the previous steps and still see the "Coming Soon" page,
+contact GoDaddy Support directly:
+
+1. Call GoDaddy support: 1-480-505-8877 (check for current number)
+
+2. Be specific about your issue:
+   - Tell them you want to DISABLE all GoDaddy hosting/website services for kausalyze.com
+   - Explain you're using GitHub Pages instead
+   - Ask them to check for any "Coming Soon" page settings or domain parking
+   - Ask them to verify no redirects are active on their end
+
+3. Key phrases to use:
+   "I need to disable the Coming Soon page completely"
+   "I'm using external DNS hosting with GitHub Pages"
+   "I need to ensure no domain parking/forwarding is active"
+
+4. Alternative: Live Chat
+   - Log into GoDaddy account
+   - Look for Live Chat option
+   - Use the same talking points as above
+
+GoDaddy support can sometimes identify hidden settings or account-specific configurations
+that aren't visible in the standard customer dashboard.

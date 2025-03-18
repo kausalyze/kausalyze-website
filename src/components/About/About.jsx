@@ -70,10 +70,10 @@ const About = () => {
           <div className="about-story">
             <h3>Our Story</h3>
             <p>
-              Kausalyze emerged from the University of Sheffield in 2023, born from a critical insight: process manufacturers lose 11% of annual revenue to unplanned downtime, with complex processes producing vast amounts of data that traditional analysis methods struggle to interpret effectively.
+              Kausalyze emerged from the University of Sheffield born from a critical insight: process manufacturers lose 11% of annual revenue to unplanned downtime, with complex processes producing vast amounts of data that traditional analysis methods struggle to interpret effectively.
             </p>
             <p>
-              Dr. Louis Allen, our founder and CEO, developed Kausalyze's core technology during his PhD research, combining his experience as a process improvement engineer with advanced AI capabilities. Working alongside Professor Joan Cordiner, a Fellow of the Royal Academy of Engineering, and Steve Kerridge, an experienced business advisor with multiple successful university spinouts, the team created a solution that addresses the fundamental challenges of industrial process downtime.
+              Dr. Louis Allen, our founder and CEO, developed Kausalyze's core technology during his PhD research, combining his experience as a process improvement engineer with advanced AI capabilities. Working alongside Professor Joan Cordiner, a Fellow of the Royal Academy of Engineering, and Steve Kerridge, an experienced business leaderwith multiple successful university spinouts, the team created a solution that addresses the fundamental challenges of industrial process downtime.
             </p>
             <p>
               Our engineering-first approach stands in stark contrast to generic AI solutions. We've built a system that integrates deep chemical engineering domain knowledge with generative AI, enabling it to analyze complex, noisy process data and provide clear, actionable insights that can reduce unplanned downtime by up to 40% while optimizing resource utilization across entire manufacturing plants.

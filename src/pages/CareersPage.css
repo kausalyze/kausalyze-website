@@ -1,0 +1,104 @@
+.careers-page {
+  padding: 120px 0 80px;
+}
+
+.careers-header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.careers-header h1 {
+  color: var(--primary-dark);
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.careers-content {
+  display: flex;
+  justify-content: center;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.careers-message {
+  background-color: var(--bg-light);
+  border-radius: var(--border-radius-lg);
+  padding: 2.5rem;
+  box-shadow: var(--shadow-sm);
+  width: 100%;
+}
+
+.careers-message h2 {
+  color: var(--primary-dark);
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.careers-message p {
+  margin-bottom: 1.5rem;
+  line-height: 1.6;
+  font-size: 1.1rem;
+}
+
+.contact-email {
+  background-color: var(--white);
+  padding: 1.5rem;
+  border-radius: var(--border-radius-md);
+  text-align: center;
+  margin: 2rem 0;
+  border-left: 4px solid var(--primary-medium);
+}
+
+.contact-email a {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--primary-dark);
+}
+
+.contact-email a:hover {
+  color: var(--accent-color);
+}
+
+.careers-note {
+  font-style: italic;
+  color: var(--text-medium);
+  font-size: 0.95rem !important;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .careers-page {
+    padding: 100px 0 60px;
+  }
+
+  .careers-message {
+    padding: 1.5rem;
+  }
+
+  .careers-header h1 {
+    font-size: 2rem;
+  }
+
+  .careers-message h2 {
+    font-size: 1.5rem;
+  }
+
+  .contact-email {
+    padding: 1rem;
+  }
+
+  .contact-email a {
+    font-size: 1.1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .careers-page {
+    padding: 80px 0 40px;
+  }
+
+  .careers-header h1 {
+    font-size: 1.75rem;
+  }
+}

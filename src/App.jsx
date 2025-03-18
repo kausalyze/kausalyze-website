@@ -5,11 +5,11 @@ import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
 import HomePage from './pages/HomePage';
 import AboutPage from './pages/AboutPage';
-import FeaturesPage from './pages/FeaturesPage';
 import ContactPage from './pages/ContactPage';
-import TeamPage from './pages/TeamPage';
 import LegalPage from './pages/LegalPage';
 import PlaceholderPage from './pages/PlaceholderPage';
+import CareersPage from './pages/CareersPage';
+import NewsPage from './pages/NewsPage';
 
 function App() {
   return (
@@ -27,9 +27,10 @@ function App() {
         <Route path="/privacy" element={<LegalPage />} />
         <Route path="/cookies" element={<LegalPage />} />
 
-        {/* Placeholder routes */}
-        <Route path="/careers" element={<PlaceholderPage />} />
-        <Route path="/press" element={<PlaceholderPage />} />
+        {/* Custom pages */}
+        <Route path="/careers" element={<CareersPage />} />
+        <Route path="/news" element={<NewsPage />} />
+        <Route path="/press" element={<NewsPage />} />
         <Route path="/case-studies" element={<PlaceholderPage />} />
         <Route path="/white-papers" element={<PlaceholderPage />} />
         <Route path="/blog" element={<PlaceholderPage />} />

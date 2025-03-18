@@ -1,0 +1,23 @@
+IMPORTANT: CHECK FOR GODADDY HOSTING/WEBSITE BUILDER SERVICES
+
+1. Log into your GoDaddy account
+2. Go to "My Products" dashboard
+3. Look for ANY of these attached to kausalyze.com:
+   - Web Hosting
+   - Website Builder
+   - GoDaddy Website
+   - WordPress Hosting
+
+4. IF YOU FIND ANY ACTIVE SERVICES:
+   - For Website Builder: Click on it, look for "Coming Soon" toggle and turn it OFF
+   - For Web Hosting: Look for "Settings" and either:
+     a) Disable it completely (if you don't need it), or
+     b) Change the document root to point to a directory without content
+
+5. SPECIFIC NAVIGATION PATH:
+   - After logging in, look for "Websites + Marketing" or similar section
+   - Find "Website" settings
+   - Look for "Set Site Visibility" or "Site Settings"
+   - Change from "Coming Soon" to "Public"
+
+This is THE most common reason GitHub Pages won't show when DNS is correctly configured.

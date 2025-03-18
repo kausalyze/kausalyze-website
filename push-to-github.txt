@@ -3,6 +3,7 @@ STEPS TO PUSH YOUR CODE TO GITHUB:
 1. Update your package.json:
    - Replace "YOUR_GITHUB_USERNAME" with your actual GitHub username
    - Replace "YOUR_REPO_NAME" with your repository name (e.g., "kausalyze-website")
+   - The "homepage" field should contain your custom domain: "https://kausalyze.com"
 
 2. Open terminal/command prompt in your project root folder and run these commands:
 
@@ -16,7 +17,7 @@ git add .
 git commit -m "Initial commit"
 
 # Add your GitHub repository as remote
-git remote add origin https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git
+git remote add origin https://github.com/Kausal-sheffield/kausalyze-website.git
 
 # Push your code to GitHub
 git push -u origin main
@@ -29,17 +30,31 @@ npm install --save gh-pages
 4. Deploy your site to GitHub Pages:
 npm run deploy
 
-5. Configure GitHub Pages:
+5. Configure GitHub Pages with Custom Domain:
    - Go to your GitHub repository
    - Click "Settings" tab
    - Scroll down to "GitHub Pages" section
-   - Under "Source", select "gh-pages" branch
-   - Your site will be published at: https://YOUR_USERNAME.github.io/YOUR_REPO_NAME/
+   - Under "Custom domain", enter: kausalyze.com
+   - Click "Save"
+   - Check the "Enforce HTTPS" checkbox (it may take up to 24 hours for SSL to be fully configured)
 
-6. Wait a few minutes for the deployment to complete, then visit your site URL.
+6. Configure your GoDaddy DNS settings:
+   - Log in to your GoDaddy account
+   - Go to your domain's DNS management section
+   - Add A records pointing to GitHub Pages:
+     Type: A, Name: @, Value: 185.199.108.153, TTL: 600 seconds
+     Type: A, Name: @, Value: 185.199.109.153, TTL: 600 seconds
+     Type: A, Name: @, Value: 185.199.110.153, TTL: 600 seconds
+     Type: A, Name: @, Value: 185.199.111.153, TTL: 600 seconds
+   - Add CNAME record for www subdomain:
+     Type: CNAME, Name: www, Value: kausalyze.com, TTL: 1 hour
+
+7. Wait for DNS propagation (can take 24-48 hours), then visit your site at https://kausalyze.com
 
 TROUBLESHOOTING:
 ---------------
-- If you get a 404 error after deployment, check that your "homepage" URL in package.json exactly matches the GitHub Pages URL
-- For routing issues, make sure you've added both the 404.html and updated index.html with the routing scripts
+- DNS propagation can take up to 48 hours, so your domain might not work immediately
+- Use https://dnschecker.org to verify your DNS records are properly configured
+- If your custom domain fails to resolve, verify your A records are correctly set in GoDaddy
+- For SSL issues, make sure "Enforce HTTPS" is checked in GitHub Pages settings
 - If files are missing, check that you've committed all changes and pushed them to GitHub before deploying
