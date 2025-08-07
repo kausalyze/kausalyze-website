@@ -54,6 +54,8 @@ const About = () => {
     { name: "University of Sheffield", logo: "/img/supporters/uos-logo-2.png" },
     { name: "Innovate UK", logo: "/img/supporters/innovate_uk.png" },
     { name: "ICURe Explore", logo: "/img/supporters/icure-explore.png" },
+    { name: "Plug & Play Tech Centre \n\n (Smart Cities, Sugar Land, Batch 1)", logo: "/img/supporters/plug_and_play_tech_center_logo.jpeg" },
+
   ];
 
   return (

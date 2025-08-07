@@ -96,7 +96,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <h4>Email Us</h4>
-                  <p>lallen6@sheffield.ac.uk</p>
+                  <p>info@kausalyze.com</p>
                 </div>
               </div>
 
@@ -130,7 +130,7 @@ const Contact = () => {
             ) : (
               <form
                 className="contact-form"
-                action="https://formsubmit.co/3742649edc47b0a075bd7514fe31a7f2"
+                action="https://formsubmit.co/info@kausalyze.com"
                 method="POST"
                 onSubmit={handleSubmit}
               >

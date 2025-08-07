@@ -27,7 +27,7 @@ const CareersPage = () => {
               If you'd like to be considered for future opportunities, please email your CV to:
             </p>
             <div className="contact-email">
-              <a href="mailto:lallen6@sheffield.ac.uk">lallen6@sheffield.ac.uk</a>
+              <a href="mailto:louis@kausalyze.com">careers@kausalyze.com</a>
             </div>
             <p className="careers-note">
               We appreciate your interest in Kausalyze and will keep your information on file for future opportunities.
