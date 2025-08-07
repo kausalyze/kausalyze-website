@@ -21,7 +21,7 @@ const newsItems = [
   {
     date: '2025-07',
     title: 'Product Development Continues...',
-    summary: 'Kausalyze complete the Smart Cities Accelerator facilitated by Plug and Play in the city of Sugar Land!',
+    summary: 'Our next generation fault detection and root cause diagnosis software is nearly ready',
     content: 'The team are hard at work bringing next-generation prescriptive maintenance software to the market. Watch this space for future updates and news from Kausalyze — or get in touch for early access. (Image AI Generated)',
     images: ['img/news/prod_dev_ai.png'
 
