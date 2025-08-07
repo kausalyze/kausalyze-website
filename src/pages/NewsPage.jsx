@@ -55,11 +55,8 @@ const newsItems = [
     title: 'Digital Forge Sheffield',
     summary: 'We are excited to announce that Louis will be speaking on behalf of Kausalyze at the Digital Forge Sheffield event on the 26th of March 2025.',
     content: 'Both Louis and Steve will be at the event, get your ticket now and head down to hear Louis talk and meet the team.',
-    image: '', // Add image URL if you have one
+    image: 'img/news/louis_digital_forge.jpeg', // Add image URL if you have one
     links: [{
-      url: 'https://lu.ma/2nw7zdx2',
-      text: 'Register for the event',
-      isPrimary: true
     }]
   },
   {
