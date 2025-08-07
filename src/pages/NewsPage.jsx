@@ -41,23 +41,21 @@ const newsItems = [
     title: 'Houston bound!',
     summary: 'Louis is representing Kausalyze on a trip to the US this month.',
     content: 'In April, Louis took to the skies across on a mini US road trip, starting in Houston, catching up with new customers and mentors. He also represented Kausalyze at the AIChE in Dallas where he was able to demonstrate the power causal AI can have on manufacturing. If you\'re interested, get in touch!  ',
-    images: ['https://media.licdn.com/dms/image/v2/D5622AQHkKHCXD2iP3g/feedshare-shrink_800/B56ZYCiVymHoAg-/0/1743799392348?e=1752710400&v=beta&t=Tsl_j8WDhmoRtCLh4CEZeWy8NeYGyFw1xBnpwtiI8KY', 'img/news/aiche_2025.jpeg'], // Add image URL if you have one
+    images: ['img/news/aiche_2025.jpeg'], // Add image URL if you have one
   },
   {
     date: '2025-03-26',
     title: 'Digital Forge Sheffield',
     summary: 'We had a great time presenting at the Digital Forge Sheffield event in March.',
     content: 'Thank you to everyone who came to watch Louis pitch, and thank you to all those who came to talk to us afterwards. ',
-    image: 'https://media.licdn.com/dms/image/v2/D4E22AQHQmgA201x6OA/feedshare-shrink_800/B4EZX8zTAaHkAg-/0/1743703061405?e=1752710400&v=beta&t=83kUBtQlP4i041TSmaSUo6ymegff7Hx7WXg8mU5IJe8', // Add image URL if you have one
+    image: 'img/news/louis_digital_forge.jpeg', // Add image URL if you have one
   },
   {
     date: '2025-03-17',
     title: 'Digital Forge Sheffield',
     summary: 'We are excited to announce that Louis will be speaking on behalf of Kausalyze at the Digital Forge Sheffield event on the 26th of March 2025.',
     content: 'Both Louis and Steve will be at the event, get your ticket now and head down to hear Louis talk and meet the team.',
-    image: 'img/news/louis_digital_forge.jpeg', // Add image URL if you have one
-    links: [{
-    }]
+    image: '' // Add image URL if you have one
   },
   {
     date: '2025-03-15',
