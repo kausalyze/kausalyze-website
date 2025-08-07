@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/static/css/main.2aebf28d.css",
-    "main.js": "/static/js/main.44c3402b.js",
+    "main.js": "/static/js/main.6f2d7a50.js",
     "static/js/453.a529a7cc.chunk.js": "/static/js/453.a529a7cc.chunk.js",
     "static/media/kausalyze-logo.svg": "/static/media/kausalyze-logo.5040786dc5236236a9bfbf024c059bf8.svg",
     "index.html": "/index.html",
     "main.2aebf28d.css.map": "/static/css/main.2aebf28d.css.map",
-    "main.44c3402b.js.map": "/static/js/main.44c3402b.js.map",
+    "main.6f2d7a50.js.map": "/static/js/main.6f2d7a50.js.map",
     "453.a529a7cc.chunk.js.map": "/static/js/453.a529a7cc.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2aebf28d.css",
-    "static/js/main.44c3402b.js"
+    "static/js/main.6f2d7a50.js"
   ]
 }
